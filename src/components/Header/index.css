@@ -1,0 +1,139 @@
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #1c0d0d; /*  #fffafa */
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.responsive-navbar {
+  max-width: 1140px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: none;
+  margin-left: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.navbar-title {
+  color: #009dff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-title {
+    font-size: 32px;
+  }
+}
+
+.span-element {
+  color: #ff0000;
+}
+
+.navbar-link {
+  color: #f1efef;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-right: 16px;
+  font-weight: 500;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.search-container {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .search-input {
+    width: 120px;
+    font-size: 12px;
+  }
+}
+
+.search-button {
+  border: none;
+  background-color: #009dff;
+  padding: 5px 8px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu-bar {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: 8px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-bar {
+    display: none;
+  }
+}
+
+.mini-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1140px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.mini-list-item {
+  list-style: none;
+  color: #f1efef;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.close-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.active {
+  font-weight: 700;
+  color: #ff0000;
+}

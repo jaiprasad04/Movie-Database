@@ -1,0 +1,26 @@
+.top-rated-container {
+  background-color: #252121;
+  min-height: 100vh;
+  padding-top: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-container {
+    padding-top: 96px;
+  }
+}
+
+.top-rated-movie-container {
+  display: flex;
+  justify-content: center;
+}
+
+.top-rated-movie-list {
+  padding-left: 0;
+  width: 90%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 64px;
+}

@@ -1,0 +1,61 @@
+.crew-details-list-item {
+  width: 110px;
+  min-height: 180px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 0px rgb(134, 124, 124);
+}
+
+@media screen and (min-width: 768px) {
+  .crew-details-list-item {
+    width: 180px;
+    height: 350px;
+    margin-bottom: 24px;
+  }
+}
+
+.crew-details-profile {
+  width: 100%;
+  height: 70%;
+  border-radius: 8px 8px 0 0;
+}
+
+.crew-details-names-container {
+  padding: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .crew-details-names-container {
+    padding: 12px;
+  }
+}
+
+.crew-details-name {
+  color: #000000;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .crew-details-name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.crew-details-character-name {
+  color: #000000;
+  font-size: 10px;
+  margin-top: 0;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .crew-details-character-name {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,247 @@
+.single-movie-container {
+  background-color: #faf1f1;
+  min-height: 100vh;
+  padding-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .single-movie-container {
+    padding-top: 96px;
+  }
+}
+
+.movie-poster-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #000000ac;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-poster-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #000000ac;
+  }
+}
+
+.movie-poster-responsive {
+  width: 90%;
+  max-width: 1240px;
+  display: flex;
+}
+
+.single-movie-poster-img {
+  width: 110px;
+  height: 180px;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .single-movie-poster-img {
+    width: 280px;
+    height: 380px;
+  }
+}
+
+.single-poster-details-container {
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-details-container {
+    margin-left: 32px;
+  }
+}
+
+.single-poster-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-title {
+    font-size: 32px;
+  }
+}
+
+.single-poster-tagline {
+  color: #bcacac;
+  font-size: 8px;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-tagline {
+    font-size: 14px;
+  }
+}
+
+.span-year {
+  color: #fff1f1cb;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .span-year {
+    font-size: 24px;
+  }
+}
+
+.single-poster-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.single-poster-rated {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-family: 'Roboto';
+
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-rated {
+    font-size: 16px;
+  }
+}
+
+.single-poster-runtime {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-runtime {
+    font-size: 16px;
+  }
+}
+
+.single-poster-overview {
+  color: #ffffff;
+  font-size: 6px;
+  font-family: 'Roboto';
+  margin-top: 4px;
+  font-weight: 300;
+}
+
+.span-overview {
+  font-size: 8px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-overview {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .span-overview {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.single-poster-genres-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-genres-container {
+    margin-top: 12px;
+  }
+}
+
+.single-poster-genres-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.single-poster-genres {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-genres {
+    font-size: 16px;
+  }
+}
+
+.single-poster-genres-item {
+  color: #e8e2e2;
+  font-size: 8px;
+  font-family: 'Roboto';
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-genres-item {
+    font-size: 14px;
+  }
+}
+
+.single-poster-spoken-language {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-spoken-language {
+    font-size: 16px;
+  }
+}
+
+.single-poster-spoken-language-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 4px 0;
+}
+
+.single-poster-spoken-language-item {
+  color: #bcacac;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .single-poster-spoken-language-item {
+    font-size: 12px;
+  }
+}
+
+.failure-container {
+  background-color: #252121;
+}

@@ -1,0 +1,42 @@
+.cast-crew-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.cast-crew-details-responsive-container {
+  width: 90%;
+  max-width: 1240px;
+}
+
+.cast-details-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .cast-details-heading {
+    font-size: 32px;
+  }
+}
+
+.cast-details-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.view-more-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
